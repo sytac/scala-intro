@@ -1,9 +1,21 @@
 package exercise3
 
+/**
+  * Exercises about higher order functions
+  */
 object FormatResult {
 
-  type DummyType = Int
+  /**
+    * Implement a function that formats the result of a function application
+    * on Int values in the format: "The <operation name> of <input> is <result>."
+    */
+  def format(operationName: String, input: Int, function: Int => Int): String = ???
 
-  def format(operationName: DummyType, input: DummyType, function: DummyType) = ??? // Implement a reusable function that formats the result of a
-                                                                                    // calculation in the format: "The <operation name> of <input> is <result>."
+  /**
+    * Implement a function that formats the result of a function application
+    * on a generic type values in the format: "The <operation name> of <input> is <result>."
+    */
+  def formatGeneric[A](operationName: String, input: A, function: A => A): String = ???
+
+
 }

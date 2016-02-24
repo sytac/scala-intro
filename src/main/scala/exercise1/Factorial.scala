@@ -1,5 +1,9 @@
 package exercise1
 
 object Factorial {
-  def calculate(n: Int): BigInt = ??? // Calculate the factorial of number n using recursion
+  /**
+    * Calculate the factorial of number n using recursion.
+    * The solution should work also for big numbers, so make it tail-recursive
+    */
+  def calculate(n: Int): BigInt = ???
 }
