@@ -1,4 +1,4 @@
-package part1
+package basic.expressions
 
 /**
   * Learn some basic language features
@@ -33,4 +33,6 @@ object Expressions {
     * and tail recursion if an element is present in a List.
     */
   def contains(list: List[Int], element: Int): Boolean = ???
+
+
 }

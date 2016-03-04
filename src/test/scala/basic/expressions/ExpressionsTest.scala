@@ -1,9 +1,6 @@
-package part1
+package basic.expressions
 
-import exercise2.SumNElements
-import exercise3.FormatResult
-import exercise4.ListContains
-import org.scalatest.{WordSpecLike, Matchers}
+import org.scalatest.{Matchers, WordSpecLike}
 
 
 class ExpressionsTest extends Matchers with WordSpecLike {
